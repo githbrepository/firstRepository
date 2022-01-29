@@ -1,0 +1,9 @@
+{
+	"name": "Datafactory-priya",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2dad7f56-878a-4e79-9332-8c55e3a68504",
+		"tenantId": "2a9a0de0-8435-4b2e-ac36-cc1f990198e5"
+	}
+}
