@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "firstDataSet"
+			"name": "InputDataSet"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
