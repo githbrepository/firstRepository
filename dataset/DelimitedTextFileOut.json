@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedTextFileOut",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "outputFile",
+				"fileSystem": "container"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "\\",
+			"quoteChar": ""
+		},
+		"schema": []
+	}
+}
