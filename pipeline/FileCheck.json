@@ -45,7 +45,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"expression": {
-						"value": "@activity('Get Metadata1').output.itemType",
+						"value": "@activity('Get Metadata1').output.itemType\"csv\".activity('Copy data1').output",
 						"type": "Expression"
 					},
 					"ifTrueActivities": [
