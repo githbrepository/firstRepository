@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Get Metadata2",
+				"description": "To check the file type",
 				"type": "GetMetadata",
 				"dependsOn": [],
 				"policy": {
