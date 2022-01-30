@@ -33,7 +33,7 @@
 			}
 		],
 		"variables": {
-			"type": {
+			"check": {
 				"type": "Boolean"
 			}
 		},
