@@ -32,6 +32,11 @@
 				}
 			}
 		],
+		"variables": {
+			"type": {
+				"type": "Boolean"
+			}
+		},
 		"folder": {
 			"name": "Pipelines"
 		},
