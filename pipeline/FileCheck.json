@@ -35,6 +35,7 @@
 			},
 			{
 				"name": "If Condition1",
+				"description": "To check file type",
 				"type": "IfCondition",
 				"dependsOn": [
 					{
