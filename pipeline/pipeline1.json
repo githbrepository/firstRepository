@@ -34,7 +34,7 @@
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
 							"quoteAllText": true,
-							"fileExtension": ".xlsx"
+							"fileExtension": ".txt"
 						}
 					},
 					"enableStaging": false,
@@ -222,7 +222,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedTextFileOut",
+						"referenceName": "DelimitedOutputText",
 						"type": "DatasetReference"
 					}
 				]
