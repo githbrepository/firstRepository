@@ -15,24 +15,24 @@
 				},
 				"userProperties": [
 					{
-						"name": "value",
+						"name": "",
 						"value": "1"
 					}
 				],
 				"typeProperties": {
 					"source": {
-						"type": "DelimitedTextSource",
+						"type": "JsonSource",
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
-							"type": "DelimitedTextReadSettings"
+							"type": "JsonReadSettings"
 						}
 					},
 					"dataset": {
-						"referenceName": "DelimitedTextFile",
+						"referenceName": "JsonInputFile",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
