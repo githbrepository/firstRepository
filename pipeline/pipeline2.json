@@ -11,15 +11,7 @@
 					"items": {
 						"value": "@variables('animals').range(0,5)",
 						"type": "Expression"
-					},
-					"activities": [
-						{
-							"name": "Filter1",
-							"type": "Filter",
-							"dependsOn": [],
-							"userProperties": []
-						}
-					]
+					}
 				}
 			},
 			{
