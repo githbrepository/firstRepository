@@ -19,7 +19,10 @@
 			"animals": {
 				"type": "Array",
 				"defaultValue": [
-					"['dog', 'cat', 'lion', 'tiger']"
+					"dog",
+					"cat",
+					"lion",
+					"tiger"
 				]
 			}
 		},
